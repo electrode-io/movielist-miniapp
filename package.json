@@ -1,5 +1,5 @@
 {
-  "name": "MovieListMiniApp",
+  "name": "movielistminiapp",
   "version": "0.0.1",
   "private": false,
   "scripts": {
@@ -14,7 +14,8 @@
   },
   "ern": {
     "version": "1000.0.0",
-    "moduleType": "ern-miniapp"
+    "moduleType": "ern-miniapp",
+    "miniAppName": "MovieListMiniApp"
   },
   "keywords": [
     "ern-miniapp"
