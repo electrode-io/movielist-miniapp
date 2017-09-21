@@ -1,0 +1,22 @@
+{
+  "name": "MovieListMiniApp",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.48.3",
+    "react-native-electrode-bridge": "1.5.6",
+    "react-native-ernmovie-api": "0.0.8",
+    "react-native-ernnavigation-api": "0.0.2"
+  },
+  "ern": {
+    "version": "1000.0.0",
+    "moduleType": "ern-miniapp"
+  },
+  "keywords": [
+    "ern-miniapp"
+  ]
+}
