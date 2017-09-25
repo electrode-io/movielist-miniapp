@@ -2705,9 +2705,9 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-electrode-bridge@1.5.6:
-  version "1.5.6"
-  resolved "http://npme.walmart.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.6.tgz#5f7c7f41650f801f7bcf775ef51163d51c116711"
+react-native-electrode-bridge@1.5.7:
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.7.tgz#28d897fdd55cc53b565a0bd891132fa53cedac10"
   dependencies:
     events "^1.1.1"
     uuid "^3.0.0"
