@@ -9,8 +9,8 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.48.3",
     "react-native-electrode-bridge": "1.5.7",
-    "react-native-ernmovie-api": "0.0.8",
-    "react-native-ernnavigation-api": "0.0.2"
+    "react-native-ernmovie-api": "0.0.9",
+    "react-native-ernnavigation-api": "0.0.3"
   },
   "ern": {
     "version": "1000.0.0",
