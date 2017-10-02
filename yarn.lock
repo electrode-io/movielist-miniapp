@@ -2705,20 +2705,20 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-electrode-bridge@1.5.7:
-  version "1.5.7"
-  resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.7.tgz#28d897fdd55cc53b565a0bd891132fa53cedac10"
+react-native-electrode-bridge@1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.9.tgz#0510c2050e23267524d8dfb52ed7a8e441ae37e0"
   dependencies:
     events "^1.1.1"
     uuid "^3.0.0"
 
-react-native-ernmovie-api@0.0.8:
-  version "0.0.8"
-  resolved "http://npme.walmart.com/react-native-ernmovie-api/-/react-native-ernmovie-api-0.0.8.tgz#6e6777af6d0e202a8b84af7fa667723a3d6c0915"
+react-native-ernmovie-api@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-ernmovie-api/-/react-native-ernmovie-api-0.0.9.tgz#e226db7966a83d73d1711c1b9924961a11c335ab"
 
-react-native-ernnavigation-api@0.0.2:
-  version "0.0.2"
-  resolved "http://npme.walmart.com/react-native-ernnavigation-api/-/react-native-ernnavigation-api-0.0.2.tgz#83c36d378a10141ac26314f3d6a6a09dfd4cfb99"
+react-native-ernnavigation-api@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-ernnavigation-api/-/react-native-ernnavigation-api-0.0.3.tgz#d529c20e0e3faf9b0bbda6767aa29e09e6e92cda"
 
 react-native@0.48.3:
   version "0.48.3"
