@@ -3,7 +3,11 @@ Electrode Native - Movie List MiniApp (Getting Started sample application)
 
 Application that has a UI to display a list of movies.
 
-# Run standalone
+# Prerequisite
+
+[Install](https://www.gitbook.com/book/electrode/electrode-native/details) Electrode Native
+
+# Run the app standalone
 To run this app stand alone simply clone the repo and execute the ern run command as below.
 
 ```bash
@@ -25,7 +29,7 @@ $ ern run-ios
 ```
 
 
-# Run with MovieDetailsMiniApp.
+# Run the app with MovieDetailsMiniApp.
 
  With react-native platform you can easily combine multiple MiniApps into a single native application.
 
