@@ -58,3 +58,8 @@ Once the app is launched clicking on a movie will take you to the details page o
 To build this app from scratch, follow the instructions of our [Getting started guide](https://electrode.gitbooks.io/electrode-native/content/getting-started/getting-started.html)
 
 To know more about electrode native platform check the docs [HERE](https://electrode.gitbooks.io/electrode-native/content/).
+
+# Branching strategy
+
+There is one branch per version of Electrode Native used by the MiniApp (i.e `ern-v0.7`, `ern-v0.8` ...).  
+The master branch is used for Electrode Native development version (1000.0.0). 
