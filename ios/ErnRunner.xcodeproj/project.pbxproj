@@ -59,7 +59,7 @@
 /* Begin PBXFileReference section */
 		22D3971F1F50C6FE00C40FE2 /* RunnerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunnerConfig.h; sourceTree = "<group>"; };
 		22D397201F50C6FE00C40FE2 /* RunnerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunnerConfig.m; sourceTree = "<group>"; };
-		302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = "/Users/d0g00g4/.ern/containergen/out/ios/ElectrodeContainer.xcodeproj"; sourceTree = "<group>"; };
+		302CACCA1EF0A6CF00B1ED18 /* ElectrodeContainer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ElectrodeContainer.xcodeproj; path = "/Users/blemair/.ern/containergen/out/ios/ElectrodeContainer.xcodeproj"; sourceTree = "<group>"; };
 		304F3E951EEF455C00F1E36B /* ErnRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErnRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304F3E991EEF455C00F1E36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		304F3E9B1EEF455C00F1E36B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
