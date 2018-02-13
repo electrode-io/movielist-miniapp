@@ -1,13 +1,13 @@
 {
   "name": "movielistminiapp",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.52.2",
+    "react-native": "0.53.0",
     "react-native-electrode-bridge": "1.5.9",
     "react-native-ernmovie-api": "0.0.9",
     "react-native-ernnavigation-api": "0.0.4"
