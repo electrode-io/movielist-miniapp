@@ -16,74 +16,74 @@ import { NavigationApi } from 'react-native-ernnavigation-api'
 
 export default class MovieListMiniApp extends Component {
 
-  _keyExtractor = (item, index) => item.title;
+  _keyExtractor = (item, index) => item.title
 
-constructor () {
-  super()
+  constructor () {
+    super()
 
-  MoviesApi.requests().getTopRatedMovies().then((movies) => {
-    if (movies) {
+    MoviesApi.requests().getTopRatedMovies().then((movies) => {
+      if (movies) {
+        this.setState(previousState => {
+          return {movies}
+        })
+      }
+    }).catch(error => {
+      let movies = [{
+        title: 'Titanic',
+        releaseYear: 1997,
+        ratings: '4.5',
+        imageUrl: 'http://bit.ly/2hnU8mq',
+        description: 'Titanic'
+      }, {
+        title: 'Avatar',
+        releaseYear: 2009,
+        ratings: '4.0',
+        imageUrl: 'http://bit.ly/2xAX0Cv',
+        description: 'Avatar'
+      }]
+
       this.setState(previousState => {
         return {movies}
       })
-    }
-  }).catch(error => {
-    let movies = [{
-      title: 'Titanic',
-      releaseYear: 1997,
-      ratings: '4.5',
-      imageUrl: 'http://bit.ly/2hnU8mq',
-      description: 'Titanic'
-    }, {
-      title: 'Avatar',
-      releaseYear: 2009,
-      ratings: '4.0',
-      imageUrl: 'http://bit.ly/2xAX0Cv',
-      description: 'Avatar'
-    }]
-
-    this.setState(previousState => {
-      return {movies}
     })
-  })
 
-  this.state = {
-    movies: []
+    this.state = {
+      movies: []
+    }
   }
-}
 
-
-render () {
-  return (
-    <FlatList
-      style={styles.container}
-      data={this.state.movies}
-      keyExtractor={this._keyExtractor}
-      renderItem={({item}) =>
-      <TouchableHighlight onPress={() => this._onPressRow(item)} underlayColor="gray">
-        <View style={styles.row} onPress={() => this._onPressRow(item)}>
-          <Image
-            style={styles.icon}
-            source={{
-              uri: item.imageUrl ? item.imageUrl : 'http://bit.ly/2yz3AYe'
-            }}
-          />
-          <View style={styles.row2}>
-            <Text style={styles.title}>{item.title}</Text>
-            <Text style={styles.subtitle}>{item.releaseYear}</Text>
-          </View>
-        </View>
-        </TouchableHighlight>}
-    />
-  )
-}
+  render () {
+    return (
+      <FlatList
+        style={styles.container}
+        data={this.state.movies}
+        keyExtractor={this._keyExtractor}
+        renderItem={({item}) =>
+          <TouchableHighlight onPress={() => this._onPressRow(item)} underlayColor="gray">
+            <View style={styles.row} onPress={() => this._onPressRow(item)}>
+              <Image
+                style={styles.icon}
+                source={{
+                  uri: item.imageUrl ? item.imageUrl : 'http://bit.ly/2yz3AYe'
+                }}
+              />
+              <View style={styles.row2}>
+                <Text style={styles.title}>{item.title}</Text>
+                <Text style={styles.subtitle}>{item.releaseYear}</Text>
+              </View>
+            </View>
+          </TouchableHighlight>}
+      />
+    )
+  }
 
   _onPressRow (movie) {
-     movie.isSelect = !movie.isSelect
-     NavigationApi.requests().navigate('MovieDetailsMiniApp', {'initialPayload': JSON.stringify(movie)}).catch(() => {
-       console.log("Navigation failed.");
-     })
-   }
+    movie.isSelect = !movie.isSelect
+    NavigationApi.requests().navigate('MovieDetailsMiniApp', {'initialPayload': JSON.stringify(movie)}).catch(() => {
+      console.log('Navigation failed.')
+    })
+  }
+
 }
 
 const styles = StyleSheet.create({
