@@ -10,5 +10,5 @@ package com.walmartlabs.ern;
 import com.walmartlabs.ern.container.miniapps.MovieListMiniAppActivity;
 final class RunnerConfig {
   static final Class MAIN_MINIAPP_ACTIVITY_CLASS =  MovieListMiniAppActivity.class;
-  static final boolean RN_DEV_SUPPORT_ENABLED = false;
+  static final boolean RN_DEV_SUPPORT_ENABLED = true;
 }
