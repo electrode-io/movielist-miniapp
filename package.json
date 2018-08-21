@@ -19,5 +19,9 @@
   },
   "keywords": [
     "ern-miniapp"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electrode-io/MovieListMiniApp.git"
+  }
 }
