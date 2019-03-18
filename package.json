@@ -6,9 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "16.6.3",
-    "react-native": "0.57.8",
-    "react-native-electrode-bridge": "1.5.x",
+    "react": "16.8.3",
+    "react-native": "0.59.0",
+    "react-native-electrode-bridge": "1.5.16",
     "react-native-ernmovie-api": "0.0.11",
     "react-native-ernnavigation-api": "0.0.5"
   },
