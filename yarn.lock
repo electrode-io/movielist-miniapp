@@ -2976,7 +2976,14 @@ react-devtools-core@^3.6.0:
     shell-quote "^1.6.1"
     ws "^3.3.1"
 
-react-native-electrode-bridge@1.5.16, react-native-electrode-bridge@1.5.x:
+react-native-electrode-bridge@1.5.17:
+  version "1.5.17"
+  resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.17.tgz#7aa9ad920d8f704482dd63f12c8ac55570a1d2fd"
+  dependencies:
+    events "^1.1.1"
+    uuid "^3.0.0"
+
+react-native-electrode-bridge@1.5.x:
   version "1.5.16"
   resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.16.tgz#49fed03cf08c0fe95d11a44315901d81b0309c08"
   dependencies:
@@ -2995,9 +3002,9 @@ react-native-ernnavigation-api@0.0.5:
   dependencies:
     react-native-electrode-bridge "1.5.x"
 
-react-native@0.59.0:
-  version "0.59.0"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.0.tgz#7d0ad297da3fd2e18f387f0ef5581270aaabac42"
+react-native@0.59.2:
+  version "0.59.2"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.2.tgz#c2e2d9e185b04e54948f170841d97c24661a0fa9"
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^1.2.1"
