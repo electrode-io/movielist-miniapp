@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.2",
+    "react-native": "0.59.4",
     "react-native-electrode-bridge": "1.5.17",
     "react-native-ernmovie-api": "0.0.11",
     "react-native-ernnavigation-api": "0.0.5"
